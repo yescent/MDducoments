@@ -195,8 +195,8 @@
     - timeZoneOffset, float, time zone of your time parameters
     - pageIndex: integer, default 1
     - pageSize: integer, default 20, max value 50
-    - sortBy: string, `nextSLABreach`, `lastReplyTime`, `lastUpdatedTime`, `priority`, `status` , default value: `lastUpdatedTime`
-    - sortOrder: string, `ascending`, `descending`, default value: `descending`
+    - sortBy: string, `nextSLABreach`, `lastRepliedTime`, `lastUpdatedTime`, `priority`, `status` , default value: `lastUpdatedTime`
+    - sortOrder: string, `asc`, `desc`, default value: `desc`
     - contactOrVisitorId: string
 
 + Response 
